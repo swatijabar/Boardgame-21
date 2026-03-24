@@ -126,6 +126,10 @@
             <id>maven-snapshots</id>
             <url>http://35.154.196.181:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
+		 <proxyRepository>
+            <id>maven-central-proxy</id>
+            <url>http://35.154.196.181:8081/repository/maven-central-proxy/</url>
+        </proxyRepository>
     </distributionManagement>
 
 </project>
